@@ -5,12 +5,22 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
-  <link rel="stylesheet" href="mobilD.css">
+  <link rel="stylesheet" href="landing-page.css">
   <title> Legendary shinies</title>
 </head>
 
 <body>
   <main>
+
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Best Legendary Weapons</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a class="nav-menu" href="#Features">Features</a>
+        <a class="nav-menu" href="#works">how it works</a>
+        <a class="nav-menu" href="#price">pricing</a>
+      </div>
+    </div>
+
     <section class="flex-container">
       <div id="header" class="flex1">
         <header id="nav-bar" class="main-navi">
@@ -155,6 +165,29 @@
           </footer>
         </div>
   </main>
+  <script>
+  //mobil navigation bar
+
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
 </body>
 
 </html>
