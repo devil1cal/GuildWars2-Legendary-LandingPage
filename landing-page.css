@@ -9,18 +9,58 @@
 .flex-container{
 display: flex;
 flex-direction: column;
-
+width: 100%;
 }
+
+/*---flex-1---*/
 .flex1 {
 display: none;
 }
+
+/*---flex-2---*/
 .flex2 {
-
+position: relative;
+margin-top: 75px;
 }
+#forms{
+  display: flex;
+  flex-direction: column;
+}
+
+#email{
+width: 250px;
+align-self: center;
+}
+
+#submit{
+width: 75px;
+border:1px solid grey;
+align-self: center;
+margin-top: 10px;
+}
+/*---flex-3---*/
 .flex3 {
-
+  display: flex;
+  flex-direction: column;
 }
+.mats{
+
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.ships{
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.evon{
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+
+/*---flex-4---*/
 .flex4 {
+boder:1px solid red;
 
 }
 .flex5 {
@@ -31,9 +71,53 @@ display: none;
 }
 
 /*---fonts---*/
+.flex1{}
+  /*---flex-2---*/
+.flex2{
+text-align: center;
+text-transform:capitalize;
+font-size: 1em;
+}
 
+/*---flex-3---*/
+.flex3{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border:1px solid green;
+}
+.h-info{
+  text-align: center;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.p-info{
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
 
 /*---sizes---*/
+
+/*---flex-3---*/
+.img-mats{
+max-width: 300px;
+width: 100%;
+}
+.img-ship{
+max-width: 300px;
+width: 100%;
+}
+.img-evon{
+max-width: 300px;
+width: 100%;
+}
 
 
 /*---specials---*/
@@ -62,12 +146,13 @@ display: none;
   display: none;
   position: absolute;
   background-color: rgba(211, 211, 211, 1);
-text-align: center;
+  text-align: center;
   min-width: 160px;
   width: 100%;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  text-transform: capitalize;
 }
 
 .dropdown-content a {
@@ -80,3 +165,19 @@ text-align: center;
 .dropdown a:hover {background-color: #d8cbba;}
 
 .show {display: block;}
+
+
+
+
+/*---media quary---*/
+@media only screen and (min-width: 701px){
+.dropdown{
+  display: none;
+}
+
+.flex1{
+  display: inline-block;
+}
+
+
+}
