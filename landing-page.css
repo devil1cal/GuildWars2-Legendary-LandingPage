@@ -14,11 +14,13 @@ width: 100%;
 
 /*---flex-1---*/
 .flex1 {
+    /*anything for main container is here*/
 display: none;
 }
 
 /*---flex-2---*/
 .flex2 {
+    /*anything for main container is here*/
 position: relative;
 margin-top: 75px;
 }
@@ -33,11 +35,22 @@ align-self: center;
 }
 
 #submit{
-width: 75px;
-border:1px solid grey;
-align-self: center;
-margin-top: 10px;
+  position: relative;
+  left: 2,5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+  height: auto;
+  align-self: center;
+  background-color: #E8E8E8;
+  border:1px solid #E8E8E8;
+  opacity: 0.8;
+  z-index: 1;
+  text-transform: capitalize;
 }
+
 /*---flex-3---*/
 .flex3 {
   display: flex;
@@ -60,14 +73,103 @@ margin-top: 10px;
 
 /*---flex-4---*/
 .flex4 {
-boder:1px solid red;
-
+  /*anything for main container is here*/
 }
+.iframe-container{
+  overflow: hidden;
+  padding-top: 56%;
+  position: relative;
+}
+.iframe-container iframe{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border:0;
+}
+
+/*---flex-5---*/
 .flex5 {
+  /*anything for main container is here*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.sunrise{
+  align-items: center;
+  position: relative;
 
 }
-.flex6 {
+.twilight{
+  align-items: center;
+  position: relative;
 
+}
+.eternity{
+  align-items: center;
+  position: relative;
+
+}
+.flex5-head{
+  position: absolute;
+  width:100%;
+  height: 75px;
+  background-color: white;
+  z-index: 1;
+}
+
+.flex5-subhead{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  margin-top: 50px;
+  z-index: 1;
+  top: 75px;
+  left: 125px;
+  background-color: white;
+  width: 125px;
+}
+.flex5-info-list{
+  position: absolute;
+  z-index: 1;
+  bottom: 82px;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+}
+.flex5-olist{
+  list-style-type: none;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.flex5-button{
+  position: relative;
+  left: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+  height: auto;
+  align-self: center;
+  background-color: #E8E8E8;
+  border:1px solid #E8E8E8;
+  opacity: 0.8;
+  z-index: 1
+
+}
+.flex5-button a{
+  text-decoration: none;
+}
+
+
+/*---flex-6---*/
+.flex6 {
+  /*anything for main container is here*/
+boder:1px solid red;
 }
 
 /*---fonts---*/
@@ -77,6 +179,8 @@ boder:1px solid red;
 text-align: center;
 text-transform:capitalize;
 font-size: 1em;
+color: #505050;
+text-transform: capitalize;
 }
 
 /*---flex-3---*/
@@ -84,7 +188,9 @@ font-size: 1em;
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
-  border:1px solid green;
+  color: #505050;
+  text-transform: capitalize;
+
 }
 .h-info{
   text-align: center;
@@ -101,9 +207,62 @@ font-size: 1em;
   font-size: 15px;
   margin-bottom: 10px;
   line-height: 1.5;
+
 }
 
+/*---flex-5---*/
+.flex5{
+  text-align: center;
+  font-weight: bold;
+  line-height: 1em;
+
+}
+.flex5-header{
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 3em;
+  padding-top: 25px;
+  color: #505050;
+  text-transform: capitalize;
+}
+.price-size{
+  font-size: 2em;
+  line-height: 1.5;
+  margin-left: 5px;
+  color: #505050;
+}
+.flex5-info-list{
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: bold;
+  color: #505050;
+  text-transform: capitalize;
+}
+.flex5-select{
+  align-items: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 1em;
+  color: #505050;
+}
+
+
 /*---sizes---*/
+/*---flex-5---*/
+.gold-icon{
+  width:50px;
+  height: 50px;
+}
+.flex5-image{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.flex5-info-list{
+  width: 100%;
+  height: auto;
+}
+
 
 /*---flex-3---*/
 .img-mats{
