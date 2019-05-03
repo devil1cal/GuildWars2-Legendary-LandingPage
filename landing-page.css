@@ -58,7 +58,6 @@ align-self: center;
   flex-direction: column;
 }
 .mats{
-
   margin-top: 10px;
   justify-content: space-between;
 }
@@ -134,7 +133,7 @@ align-self: center;
   width: 125px;
 }
 .flex5-info-list{
-  border:1px solid red;
+
   position: absolute;
   z-index: 1;
   bottom: 82px;
@@ -173,7 +172,7 @@ align-self: center;
   /*anything for main container is here*/
   display:flex;
   flex-direction: row;
-  border:1px solid blue;
+
 }
 .rabbitfeet{
   margin:auto;
@@ -276,6 +275,19 @@ text-transform: capitalize;
 }
 
 /*---sizes---*/
+/*---flex-3---*/
+.img-mats{
+max-width: 300px;
+width: 100%;
+}
+.img-ship{
+max-width: 300px;
+width: 100%;
+}
+.img-evon{
+max-width: 300px;
+width: 100%;
+}
 /*---flex-5---*/
 .gold-icon{
 
@@ -293,19 +305,7 @@ text-transform: capitalize;
 }
 
 
-/*---flex-3---*/
-.img-mats{
-max-width: 300px;
-width: 100%;
-}
-.img-ship{
-max-width: 300px;
-width: 100%;
-}
-.img-evon{
-max-width: 300px;
-width: 100%;
-}
+
 
 
 /*---specials---*/
@@ -364,58 +364,152 @@ width: 100%;
 }
 
 .flex1{
-  display: flex;
-  width: 100%;
+  display: inline;
+  max-width: 99%;
   height: 50px;
-  border:1px solid red;
+  min-width: 50%;
+  margin:1% 5% 1% 5%;
+}
 
-}
-.middle-style{
-  align-items: center;
-}
 .main-navi{
+  position: relative;
+  max-width: 80%;
+  height: 50px;
   display: flex;
   flex-direction: row;
-  position: relative;
+  margin: auto;
   align-items: center;
-
-  width: 75%;
-  height: auto;
-  border:1px solid blue;
+  justify-content: space-between;
 }
+
 .flex1 img{
   display: flex;
-  position: relative;
-  flex-direction: row;
-  width: 250px;
-  margin-top:5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 300px;
 }
+
 .nav-link{
-  display: inline-flex;
-  float: right;
-  border:1px solid red;
-  list-style-type: none;
-  margin-top:1.7%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.nav-link li{
+  list-style: none;
   display: flex;
   flex-direction: row;
-justify-content: space-around;
-
+  align-items: center;
 }
+.lstyle{
+margin:5px;
+}
+
 .nav-link a{
   text-decoration: none;
   color: black;
 }
-.flex1{
+
+.flex1{ /* fonts */
   font-size: 1em;
   line-height: 1;
   text-transform: uppercase;
   letter-spacing:2px;
+  font-weight: 400;
+  text-align:center;
 }
+
+.flex2{
+
+  margin:50px 5% 1% 5%;
+}
+
+.flex3{
+
+  margin:50px 5% 1% 5%;
+}
+.pre-mat, .fast-ship, .quality{
+  border:1px solid red;
+}
+.pre-mat{
+  display: flex;
+  flex-direction: row;
+  border:1px solid red;
+  margin:50px 5% 1% 5%;
+  align-items: center;
+
+}
+.img-mats{
+  width: 200px;
+  height: 200px;
+  margin-right: 50%;
+  border:1px solid red;
+}
+.mats{
+  width: 400px;
+  margin-left:25%;
+  position: absolute;
+  border:1px solid red;
+}
+.mats{
+
+}
+
+.fast-ship{
+  display: flex;
+  flex-direction: row;
+  border:1px solid red;
+  margin:50px 5% 1% 5%;
+  align-items: center;
+}
+.img-ship{
+  width: 200px;
+  height: 200px;
+  margin-right: 50%;
+  border:1px solid red;
+
+}
+.ships{
+  width: 400px;
+  margin-left:25%;
+  position: absolute;
+  border:1px solid red;
+
+}
+.ships{
+
+
+}
+
+.quality{
+  display: flex;
+  flex-direction: row;
+  border:1px solid red;
+  margin:50px 5% 1% 5%;
+  align-items: center;
+  height: 200px;
+
+}
+.img-evon{
+  width: 500px;
+  height: auto;
+  margin-right: 50%;
+  border:1px solid red;
+}
+.evon{
+  width: 275px;
+
+  margin-left: 30%;
+  margin-right: 30%;
+  position: absolute;
+  border:1px solid red;
+
+}
+
+
+.flex4{
+  margin:50px 5% 1% 5%;
+
+}
+.flex5{
+  margin:50px 5% 1% 5%;
+
+}
+.sunrise,.twilight, .eternity{
+  margin:50px 5% 1% 5%;
+}
+
 
 }
