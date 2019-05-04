@@ -6,38 +6,38 @@
 }
 
 /*---main items---*/
-.flex-container{
-display: flex;
-flex-direction: column;
-width: 100%;
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 /*---flex-1---*/
 .flex1 {
-    /*anything for main container is here*/
-display: none;
-
+  /*anything for main container is here*/
+  display: none;
 }
 
 /*---flex-2---*/
 .flex2 {
-    /*anything for main container is here*/
-position: relative;
-margin-top: 75px;
+  /*anything for main container is here*/
+  position: relative;
+  margin-top: 75px;
 }
-#forms{
+
+#forms {
   display: flex;
   flex-direction: column;
 }
 
-#email{
-width: 250px;
-align-self: center;
+#email {
+  width: 250px;
+  align-self: center;
 }
 
-#submit{
+#submit {
   position: relative;
-  left: 2,5%;
+  left: 2, 5%;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 10px;
@@ -46,7 +46,7 @@ align-self: center;
   height: auto;
   align-self: center;
   background-color: #E8E8E8;
-  border:1px solid #E8E8E8;
+  border: 1px solid #E8E8E8;
   opacity: 0.8;
   z-index: 1;
   text-transform: capitalize;
@@ -57,36 +57,40 @@ align-self: center;
   display: flex;
   flex-direction: column;
 }
-.mats{
-  margin-top: 10px;
-  justify-content: space-between;
-}
-.ships{
-  margin-top: 10px;
-  justify-content: space-between;
-}
-.evon{
+
+.mats {
   margin-top: 10px;
   justify-content: space-between;
 }
 
+.ships {
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.evon {
+  margin-top: 10px;
+  justify-content: space-between;
+}
 
 /*---flex-4---*/
 .flex4 {
   /*anything for main container is here*/
 }
-.iframe-container{
+
+.iframe-container {
   overflow: hidden;
   padding-top: 56%;
   position: relative;
 }
-.iframe-container iframe{
+
+.iframe-container iframe {
   height: 100%;
   width: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  border:0;
+  border: 0;
 }
 
 /*---flex-5---*/
@@ -97,31 +101,31 @@ align-self: center;
   justify-content: space-around;
   margin-top: 5%;
 }
-.sunrise{
 
+.sunrise {
   align-items: center;
   position: relative;
-
 }
-.twilight{
+
+.twilight {
   align-items: center;
   position: relative;
-
 }
-.eternity{
+
+.eternity {
   align-items: center;
   position: relative;
-
 }
-.flex5-head{
+
+.flex5-head {
   position: absolute;
-  width:100%;
+  width: 100%;
   height: 75px;
   background-color: white;
   z-index: 1;
 }
 
-.flex5-subhead{
+.flex5-subhead {
   display: flex;
   position: relative;
   align-self: center;
@@ -132,21 +136,21 @@ align-self: center;
   background-color: white;
   width: 125px;
 }
-.flex5-info-list{
 
+.flex5-info-list {
   position: absolute;
   z-index: 1;
   bottom: 82px;
   width: 100%;
-
 }
-.flex5-olist{
+
+.flex5-olist {
   list-style-type: none;
   background-color: white;
   opacity: 0.7;
 }
 
-.flex5-button{
+.flex5-button {
   position: relative;
   left: 25%;
   margin-top: 10px;
@@ -157,57 +161,57 @@ align-self: center;
   height: auto;
   align-self: center;
   background-color: #E8E8E8;
-  border:1px solid #E8E8E8;
+  border: 1px solid #E8E8E8;
   opacity: 0.9;
   z-index: 1
-
 }
-.flex5-button a{
+
+.flex5-button a {
   text-decoration: none;
 }
-
 
 /*---flex-6---*/
 .flex6 {
   /*anything for main container is here*/
-  display:flex;
+  display: flex;
   flex-direction: row;
+}
 
+.rabbitfeet {
+  margin: auto;
 }
-.rabbitfeet{
-  margin:auto;
-}
-.rabbitfeet ul{
+
+.rabbitfeet ul {
   list-style-type: none;
-
 }
-.rabbitfeet a{
+
+.rabbitfeet a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 /*---fonts---*/
+.flex1 {}
 
-.flex1{}
-  /*---flex-2---*/
-.flex2{
-text-align: center;
-text-transform:capitalize;
-font-size: 1em;
-color: #505050;
-text-transform: capitalize;
+/*---flex-2---*/
+.flex2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1em;
+  color: #505050;
+  text-transform: capitalize;
 }
 
 /*---flex-3---*/
-.flex3{
+.flex3 {
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
   color: #505050;
   text-transform: capitalize;
-
 }
-.h-info{
+
+.h-info {
   text-align: center;
   text-transform: capitalize;
   font-style: normal;
@@ -215,24 +219,24 @@ text-transform: capitalize;
   font-size: 20px;
   margin-bottom: 10px;
 }
-.p-info{
+
+.p-info {
   text-align: center;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 10px;
   line-height: 1.5;
-
 }
 
 /*---flex-5---*/
-.flex5{
+.flex5 {
   text-align: center;
   font-weight: bold;
   line-height: 1em;
-
 }
-.flex5-header{
+
+.flex5-header {
   font-style: oblique;
   font-weight: bold;
   font-size: 3em;
@@ -240,77 +244,79 @@ text-transform: capitalize;
   color: #505050;
   text-transform: capitalize;
 }
-.price-size{
+
+.price-size {
   font-size: 2em;
   line-height: 1.5;
   margin-left: 5px;
   color: #505050;
 }
-.flex5-info-list{
+
+.flex5-info-list {
   font-size: 1.5em;
   line-height: 1.5;
   font-weight: bold;
   color: #505050;
   text-transform: capitalize;
 }
-.flex5-select{
+
+.flex5-select {
   align-items: center;
   font-style: oblique;
   font-weight: bold;
   font-size: 1.5;
   color: #505050;
-
 }
-.flex6{
+
+.flex6 {
   text-transform: capitalize;
   text-align: center;
   font-weight: bold;
   line-height: 1em;
-  color:black;
+  color: black;
   line-height: 2;
   justify-content: space-between;
 }
-.flex6 li{
 
-}
+.flex6 li {}
 
 /*---sizes---*/
 /*---flex-3---*/
-.img-mats{
-max-width: 300px;
-width: 100%;
+.img-mats {
+  max-width: 300px;
+  width: 100%;
 }
-.img-ship{
-max-width: 300px;
-width: 100%;
-}
-.img-evon{
-max-width: 300px;
-width: 100%;
-}
-/*---flex-5---*/
-.gold-icon{
 
-  width:50px;
+.img-ship {
+  max-width: 300px;
+  width: 100%;
+}
+
+.img-evon {
+  max-width: 300px;
+  width: 100%;
+}
+
+/*---flex-5---*/
+.gold-icon {
+  width: 50px;
   height: 50px;
 }
-.flex5-image{
+
+.flex5-image {
   width: 100%;
   height: auto;
   position: relative;
 }
-.flex5-info-list{
+
+.flex5-info-list {
   width: 100%;
   height: auto;
 }
 
-
-
-
-
 /*---specials---*/
 .dropbtn {
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
   color: white;
   padding: 16px;
   font-size: 25px;
@@ -328,8 +334,8 @@ width: 100%;
   position: fixed;
   width: 100%;
   z-index: 2;
-
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -338,7 +344,7 @@ width: 100%;
   min-width: 160px;
   width: 100%;
   overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   text-transform: capitalize;
 }
@@ -350,166 +356,234 @@ width: 100%;
   display: block;
 }
 
-.dropdown a:hover {background-color: #d8cbba;}
+.dropdown a:hover {
+  background-color: #d8cbba;
+}
 
-.show {display: block;}
-
-
-
+.show {
+  display: block;
+}
 
 /*---media quary---*/
-@media only screen and (min-width: 701px){
-.dropdown{
-  display: none;
+@media only screen and (min-width: 701px) {
+  .dropdown {
+    display: none;
+  }
+
+  .flex1 {
+    display: inline;
+    max-width: 99%;
+    height: 50px;
+    min-width: 50%;
+    margin: 1% 5% 1% 5%;
+  }
+
+  .main-navi {
+    position: relative;
+    max-width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .flex1 img {
+    display: flex;
+    width: 300px;
+  }
+
+  .nav-link {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .lstyle {
+    margin: 5px;
+  }
+
+  .nav-link a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .flex1 {
+    /* fonts */
+    font-size: 1em;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .flex2 {
+    margin: 50px 5% 1% 5%;
+  }
+
+  .flex3 {
+    margin: 50px 5% 1% 5%;
+  }
+
+  .pre-mat {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 5% 1% 5%;
+    align-items: center;
+  }
+
+  .img-mats {
+    width: 200px;
+    height: 200px;
+    margin-right: 50%;
+  }
+
+  .mats {
+    width: 100%;
+    max-width: 50%;
+    min-width: 250px;
+    height: auto;
+    margin-left: 29%;
+    margin-right: 25%;
+    position: absolute;
+  }
+
+  .fast-ship {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 5% 1% 5%;
+    align-items: center;
+  }
+
+  .img-ship {
+    width: 200px;
+    height: 200px;
+    margin-right: 50%;
+  }
+
+  .ships {
+    width: 100%;
+    max-width: 50%;
+    margin-left: 29%;
+    margin-right: 25%;
+    position: absolute;
+  }
+
+  .quality {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 5% 1% 5%;
+    align-items: center;
+    height: 200px;
+  }
+
+  .img-evon {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    height: auto;
+  }
+
+  .evon {
+    width: 100%;
+    max-width: 45%;
+    margin-left: 40%;
+    margin-right: 25%;
+    position: absolute;
+  }
+
+  .flex4 {
+    margin: 50px 5% 1% 5%;
+  }
+
+  .flex5 {
+    margin: 50px 5% 1% 5%;
+  }
+
+  .sunrise, .twilight, .eternity {
+    margin: 50px 5% 1% 5%;
+  }
 }
 
-.flex1{
-  display: inline;
-  max-width: 99%;
-  height: 50px;
-  min-width: 50%;
-  margin:1% 5% 1% 5%;
-}
-
-.main-navi{
-  position: relative;
-  max-width: 80%;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.flex1 img{
-  display: flex;
-  width: 300px;
-}
-
-.nav-link{
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.lstyle{
-margin:5px;
-}
-
-.nav-link a{
-  text-decoration: none;
-  color: black;
-}
-
-.flex1{ /* fonts */
-  font-size: 1em;
-  line-height: 1;
-  text-transform: uppercase;
-  letter-spacing:2px;
-  font-weight: 400;
-  text-align:center;
-}
-
-.flex2{
-
-  margin:50px 5% 1% 5%;
-}
-
-.flex3{
-
-  margin:50px 5% 1% 5%;
-}
-.pre-mat, .fast-ship, .quality{
-  border:1px solid red;
-}
-.pre-mat{
-  display: flex;
-  flex-direction: row;
-  border:1px solid red;
-  margin:50px 5% 1% 5%;
-  align-items: center;
-
-}
-.img-mats{
-  width: 200px;
-  height: 200px;
-  margin-right: 50%;
-  border:1px solid red;
-}
-.mats{
-  width: 400px;
-  margin-left:25%;
-  position: absolute;
-  border:1px solid red;
-}
-.mats{
-
-}
-
-.fast-ship{
-  display: flex;
-  flex-direction: row;
-  border:1px solid red;
-  margin:50px 5% 1% 5%;
-  align-items: center;
-}
-.img-ship{
-  width: 200px;
-  height: 200px;
-  margin-right: 50%;
-  border:1px solid red;
-
-}
-.ships{
-  width: 400px;
-  margin-left:25%;
-  position: absolute;
-  border:1px solid red;
-
-}
-.ships{
+@media only screen and (min-width: 901px) {
+  .evon {
+    width: 100%;
+    max-width: 45%;
+    margin-left: 32%;
+    margin-right: 25%;
+    position: absolute;
+  }
 
 
-}
 
-.quality{
-  display: flex;
-  flex-direction: row;
-  border:1px solid red;
-  margin:50px 5% 1% 5%;
-  align-items: center;
-  height: 200px;
-
-}
-.img-evon{
-  width: 500px;
-  height: auto;
-  margin-right: 50%;
-  border:1px solid red;
-}
-.evon{
-  width: 275px;
-
-  margin-left: 30%;
-  margin-right: 30%;
-  position: absolute;
-  border:1px solid red;
-
-}
+  .flex5 {
+    border: 1px solid red;
+    margin: 50px 2.5% 1% 2.5%;
 
 
-.flex4{
-  margin:50px 5% 1% 5%;
+  }
+  .flex-spewall {
+    border: 1px solid green;
+    width: 100%;
+    min-width: 700px;
+    max-width: 1125px;
+    margin: 1%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
 
-}
-.flex5{
-  margin:50px 5% 1% 5%;
-
-}
-.sunrise,.twilight, .eternity{
-  margin:50px 5% 1% 5%;
-}
+  }
+  .flex5-image {
+    max-width: 320px;
+    min-width: 320px;
+    height: auto;
+    border: 1px solid red;
 
 
+  }
+
+  .sunrise, .twilight, .eternity {
+    margin:0;
+    border: 1px solid red;
+
+
+
+  }
+
+  .sunrise {
+    overflow: hidden;
+    clear: both;
+    max-width: 320px;
+    min-width: 150px;
+    height: auto;
+  }
+  .twilight {
+    overflow: hidden;
+    clear: both;
+    max-width: 320px;
+    min-width: 250px;
+
+  }
+  .twilimg {
+    max-width: 339px;
+    min-width: 250px;
+    height: auto;
+
+  }
+  .eternity {
+    overflow: hidden;
+    clear: right;
+    max-width: 320px;
+    min-width: 250px;
+
+  }
+  .eterimg {
+    max-width: 323px;
+    min-width: 250px;
+    height: auto;
+  }
 }
