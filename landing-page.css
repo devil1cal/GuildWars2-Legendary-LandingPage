@@ -509,6 +509,7 @@
 }
 
 @media only screen and (min-width: 901px) {
+
   .evon {
     width: 100%;
     max-width: 45%;
@@ -516,41 +517,54 @@
     margin-right: 25%;
     position: absolute;
   }
+  .video-cont{
+    margin: 50px 2.5% 1% 2.5%;
+    border:3px solid black;
+
+  }
+  .flex4{
+  margin: 25px 15% 25px 15%;
+  overflow:hidden;
+clear:both;
+border:1px solid red
+  }
+
+
+   .flex4 iframe{
+
+    margin:0;
+    max-width: 850px;
+    max-height: 576px;
+    border:3px solid green;
+  }
 
 
 
   .flex5 {
-    border: 1px solid red;
+    border:2px solid green;
     margin: 50px 2.5% 1% 2.5%;
-
-
   }
+
   .flex-spewall {
-    border: 1px solid green;
     width: 100%;
     min-width: 700px;
     max-width: 1125px;
-    margin: 1%;
     height: auto;
     display: flex;
     flex-direction: row;
-justify-content: space-between;
-
+    justify-content: space-between;
+    align-self: center;
   }
+
   .flex5-image {
     max-width: 320px;
     min-width: 320px;
     height: auto;
-    border: 1px solid red;
-
 
   }
 
   .sunrise, .twilight, .eternity {
-    margin:0;
-    border: 1px solid red;
-
-
+    margin: 0;
 
   }
 
@@ -559,31 +573,41 @@ justify-content: space-between;
     clear: both;
     max-width: 320px;
     min-width: 150px;
-    height: auto;
+    height: 100%;
+    max-height: auto;
   }
+  .sunimig{
+    max-width: 320px;
+    min-width: 150px;
+    height: 100%;
+    max-height: auto;
+  }
+
   .twilight {
     overflow: hidden;
     clear: both;
     max-width: 320px;
     min-width: 250px;
-
   }
+
   .twilimg {
-    max-width: 339px;
-    min-width: 250px;
-    height: auto;
-
+    max-width: 320px;
+    min-width: 150px;
+    height: 100%;
+    max-height: auto;
   }
+
   .eternity {
     overflow: hidden;
     clear: right;
     max-width: 320px;
     min-width: 250px;
-
   }
+
   .eterimg {
-    max-width: 323px;
-    min-width: 250px;
-    height: auto;
+    max-width: 320px;
+    min-width: 150px;
+    height: 100%;
+    max-height: auto;
   }
 }
