@@ -373,7 +373,7 @@
   .flex1 {
     display: inline;
     max-width: 99%;
-    height: 50px;
+    height: 250px;
     min-width: 50%;
     margin: 1% 5% 1% 5%;
   }
@@ -509,7 +509,6 @@
 }
 
 @media only screen and (min-width: 901px) {
-
   .evon {
     width: 100%;
     max-width: 45%;
@@ -517,32 +516,34 @@
     margin-right: 25%;
     position: absolute;
   }
-  .video-cont{
-    margin: 50px 2.5% 1% 2.5%;
-    border:3px solid black;
 
-  }
-  .flex4{
-  margin: 25px 15% 25px 15%;
-  overflow:hidden;
-clear:both;
-border:1px solid red
+  .video-cont {
+    margin: 1% 2.5% 1% 2.5%;
+    
   }
 
+  .flex4 {
+    margin: 5% 12.5% 5% 12.5%;
+    max-width: 1280px;
+    max-height: 720px;
+    min-width: 640x;
+    min-height: 360px;
 
-   .flex4 iframe{
-
-    margin:0;
-    max-width: 850px;
-    max-height: 576px;
-    border:3px solid green;
   }
 
-
+  .flex4 iframe {
+    margin: 0;
+    max-width: 1280px;
+    max-height: 720px;
+  }
+  .iframe-container {
+    overflow: hidden;
+    padding-top:42.33333%;
+  }
 
   .flex5 {
-    border:2px solid green;
     margin: 50px 2.5% 1% 2.5%;
+
   }
 
   .flex-spewall {
@@ -560,12 +561,10 @@ border:1px solid red
     max-width: 320px;
     min-width: 320px;
     height: auto;
-
   }
 
   .sunrise, .twilight, .eternity {
     margin: 0;
-
   }
 
   .sunrise {
@@ -576,7 +575,8 @@ border:1px solid red
     height: 100%;
     max-height: auto;
   }
-  .sunimig{
+
+  .sunimig {
     max-width: 320px;
     min-width: 150px;
     height: 100%;
@@ -609,5 +609,30 @@ border:1px solid red
     min-width: 150px;
     height: 100%;
     max-height: auto;
+  }
+
+  .flex6 {
+    display: inline;
+    max-width: 99%;
+    height: 200px;
+    min-width: 50%;
+    margin: 1% 5% 1% 5%;
+    text-transform: capitalize;
+    font-size: 1.5em;
+  }
+
+  .rabbitfeet {
+    margin-top: 50px;
+  }
+
+  .rabbitfeet ul {
+    position: relative;
+    max-width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
   }
 }
