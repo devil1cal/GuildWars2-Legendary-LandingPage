@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Reset
-   ========================================================================== */
+--------------------------Reset----------------------------------------------
+========================================================================== */
 
 /* Resetting default margin, padding, and box-sizing */
 * {
@@ -9,9 +9,9 @@
     box-sizing: border-box;
   }
   
-  /* ==========================================================================
-     Base Styles
-     ========================================================================== */
+/* ==========================================================================
+ -----------------------Base Styles------------------------------------------
+========================================================================== */
   
   /* Base styles for the main container */
   .flex-container {
@@ -20,8 +20,8 @@
     width: 100%;
   }
 /* ==========================================================================
-   Typography
-   ========================================================================== */
+-------------------------Typography------------------------------------------
+========================================================================== */
 
 /* Heading Fonts */
 h1, h2, h3 {
@@ -78,8 +78,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #505050;
 }
 
-
-
 .flex5,
 .flex5-header,
 .h-info {
@@ -125,9 +123,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-  /* ==========================================================================
-     Flex Container Styles
-     ========================================================================== */
+/* ==========================================================================
+----------------------Flex Container Styles----------------------------------
+========================================================================== */
   
   /* Styles for flex container 1 */
 
@@ -171,19 +169,29 @@ h1, h2, h3, h4, h5, h6 {
   .flex3 {
     display: flex;
     flex-direction: column;
-  }
-
-  .mats, .ships, .evon {
-    margin-top: 10px;
-    display: flex;
     justify-content: space-between;
   }
 
-  .img-mats,.img-ship,.img-evon {
+  .mats, .ships, .evon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+    line-height: 2.5;
+
+    
+  }
+
+  .img-mats,
+  .img-ship,
+  .img-evon {
     max-width: 300px;
     width: 100%;
   }
 
+ 
 /*---------------------------------------------------------------------------------*/
   /* Styles for flex container 4 */
   
@@ -212,6 +220,9 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-around;
     margin-top: 5%;
   }
+  .flex5-header{
+    line-height: 1;
+  }
   
   .gold-icon {
     width: 50px;
@@ -228,10 +239,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: auto;
   }
-  
- 
-  
-
   
   .sunrise,
   .twilight,
@@ -257,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     z-index: 1;
     background-color: white;
-    width: 125px;
+    width: 140px;
   }
   
   .flex5-info-list {
@@ -296,26 +303,40 @@ h1, h2, h3, h4, h5, h6 {
 /*---------------------------------------------------------------------------------*/
   /* Styles for flex container 6 */
   .flex6 {
-    /* Add any styles for the main container here */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+ 
   }
   
   .rabbitfeet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: auto;
   }
   
-  .rabbitfeet ul {
-    list-style-type: none;
+  .footerlist{
+    display: flex;
+    justify-content: center;
+    list-style-type: none; 
+  }
+  .footerlist li {
+  list-style-type: none; 
+  float: left;
+  margin:5px;
+  text-transform: capitalize;
+
   }
   
   .rabbitfeet a {
     text-decoration: none;
     color: black;
   }
-    /* ==========================================================================
-     Specials
-     ========================================================================== */
+  
+  /* ==========================================================================
+  ----------------------------Specials-----------------------------------------
+  ========================================================================== */
   
   /* Special styles for specific elements */
   /* Add special styles here */
@@ -368,26 +389,11 @@ h1, h2, h3, h4, h5, h6 {
   .show {
     display: block;
   }
-  
-  /* ==========================================================================
-     Header Styles
-     ========================================================================== */
-  
-  /* Styles for header elements */
-  .flex5-head {
-    /* Add styles for header elements here */
-  }
-  
-
-  
-
-
-  
-  /* ==========================================================================
-     Media Queries
-     ========================================================================== */
-  
-  /* Media query for screens larger than 700px */
+   
+/* ==========================================================================
+ -------------------------Media Queries--------------------------------------
+ ========================================================================== */
+/* Media query for screens larger than 700px */
  
 @media only screen and (min-width: 701px) {
     .dropdown {
@@ -505,10 +511,10 @@ h1, h2, h3, h4, h5, h6 {
     }
   
     .img-evon {
-      width: 100%;
       max-width: 300px;
       min-width: 200px;
       height: auto;
+      width: 100%;
     }
   
     .evon {
