@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
  
   }
-  
+
   .rabbitfeet {
     display: flex;
     flex-direction: column;
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: black;
   }
-  
+
   /* ==========================================================================
   ----------------------------Specials-----------------------------------------
   ========================================================================== */
@@ -406,22 +406,23 @@ h1, h2, h3, h4, h5, h6 {
       height: 250px;
       min-width: 50%;
       margin: 1% 5% 1% 5%;
+
+    }
+    .flex1 img {
+      display: flex;
+      width: 300px;
     }
   
     .main-navi {
       position: relative;
-      max-width: 80%;
-      height: 50px;
+      max-width: 95%;
+      height: 150px;
       display: flex;
       flex-direction: row;
       margin: auto;
       align-items: center;
       justify-content: space-between;
-    }
-  
-    .flex1 img {
-      display: flex;
-      width: 300px;
+      text-transform: capitalize;
     }
   
     .nav-link {
@@ -439,106 +440,51 @@ h1, h2, h3, h4, h5, h6 {
       text-decoration: none;
       color: black;
     }
-  
-    .flex1 {
-      /* fonts */
-      font-size: 1em;
-      line-height: 1;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-weight: 400;
-      text-align: center;
-    }
-  
-    .flex2 {
+    .flex2,
+    .flex3,
+    .flex4,
+    .flex5,
+    .sunrise,
+    .twilight,
+    .eternity {
       margin: 50px 5% 1% 5%;
     }
   
     .flex3 {
-      margin: 50px 5% 1% 5%;
-    }
-  
-    .pre-mat {
       display: flex;
-      flex-direction: row;
-      margin: 50px 5% 1% 5%;
-      align-items: center;
+      flex-direction: column;
+
     }
-  
-    .img-mats {
-      width: 200px;
-      height: 200px;
-      margin-right: 50%;
-    }
-  
-    .mats {
-      width: 100%;
-      max-width: 50%;
-      min-width: 250px;
-      height: auto;
-      margin-left: 29%;
-      margin-right: 25%;
-      position: absolute;
-    }
-  
-    .fast-ship {
-      display: flex;
-      flex-direction: row;
-      margin: 50px 5% 1% 5%;
-      align-items: center;
-    }
-  
-    .img-ship {
-      width: 200px;
-      height: 200px;
-      margin-right: 50%;
-    }
-  
-    .ships {
-      width: 100%;
-      max-width: 50%;
-      margin-left: 29%;
-      margin-right: 25%;
-      position: absolute;
-    }
-  
-    .quality {
-      display: flex;
-      flex-direction: row;
-      margin: 50px 5% 1% 5%;
-      align-items: center;
-      height: 200px;
-    }
-  
-    .img-evon {
-      max-width: 300px;
-      min-width: 200px;
-      height: auto;
-      width: 100%;
-    }
-  
+
+    .mats, 
+    .ships, 
     .evon {
-      width: 100%;
-      max-width: 45%;
-      margin-left: 40%;
-      margin-right: 25%;
-      position: absolute;
+      display: flex;
+      flex-direction: column;
+      line-height: 2.5;
+
     }
-  
-    .flex4 {
-      margin: 50px 5% 1% 5%;
-    }
-  
-    .flex5 {
-      margin: 50px 5% 1% 5%;
-    }
-  
-    .sunrise, .twilight, .eternity {
-      margin: 50px 5% 1% 5%;
-    }
+
+  .footer-parag{
+    display: flex;
+    justify-content: center;
+  }
+
   }
   
+ 
+  /* Media query for screens larger than 900px */
+
   @media only screen and (min-width: 901px) {
+    
+    .info-parag{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100% ;
+
+    }
+
     .evon {
       width: 100%;
       max-width: 45%;
