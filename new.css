@@ -403,33 +403,32 @@ h1, h2, h3, h4, h5, h6 {
     .flex1 {
       display: inline;
       max-width: 99%;
-      height: 250px;
       min-width: 50%;
-      margin: 1% 5% 1% 5%;
-
+      margin: 5% 5% 5% 5%;
+     
     }
+
     .flex1 img {
       display: flex;
       width: 300px;
     }
-  
+
     .main-navi {
-      position: relative;
-      max-width: 95%;
-      height: 150px;
       display: flex;
       flex-direction: row;
       margin: auto;
+      position: relative;
+      max-width: 95%;
       align-items: center;
       justify-content: space-between;
       text-transform: capitalize;
     }
   
     .nav-link {
-      list-style: none;
       display: flex;
       flex-direction: row;
       align-items: center;
+      list-style: none;
     }
   
     .lstyle {
@@ -440,6 +439,7 @@ h1, h2, h3, h4, h5, h6 {
       text-decoration: none;
       color: black;
     }
+
     .flex2,
     .flex3,
     .flex4,
@@ -477,27 +477,43 @@ h1, h2, h3, h4, h5, h6 {
 
   @media only screen and (min-width: 901px) {
 
-    .info-parag{
+
+    .flex2{
+    margin: auto;
+    }
+
+    .flex2 h1{
+      margin:5%;    
+    }
+
+    .flex3 {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      width: 100% ;
-
     }
 
+    .pre-mat,
+    .fast-ship,
+    .quality{
+      display: flex;
+      flex-direction: row-reverse;
+      line-height: 2.5;
+    }
+
+    .mats, 
+    .ships, 
     .evon {
-      width: 100%;
-      max-width: 45%;
-      margin-left: 32%;
-      margin-right: 25%;
-      position: absolute;
+      display: flex;
+      flex-direction: row;
+      line-height: 2.5;
     }
-  
-    .video-cont {
-      margin: 1% 2.5% 1% 2.5%;
-      
-    }
-  
+
+  .info-parag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100% ;
+  }
+    
     .flex4 {
       margin: 5% 12.5% 5% 12.5%;
       max-width: 1280px;
@@ -512,9 +528,15 @@ h1, h2, h3, h4, h5, h6 {
       max-width: 1280px;
       max-height: 720px;
     }
+
     .iframe-container {
       overflow: hidden;
       padding-top:42.33333%;
+    }
+    
+    .video-cont {
+      margin: 1% 2.5% 1% 2.5%;
+      
     }
   
     .flex5 {
@@ -523,31 +545,30 @@ h1, h2, h3, h4, h5, h6 {
     }
   
     .flex-spewall {
-      width: 100%;
-      min-width: 700px;
-      max-width: 1125px;
-      height: auto;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
+      width: 100%;
+      height: auto;
+      min-width: 900px;
+      max-width: 1125px;
       align-self: center;
+     
     }
-  
-  
-    .sunrise{
-      margin: 0;
-      max-width: 320px;
-
-    }
-
+   
     .twilight,
-    .eternity {
+    .eternity,
+    .sunrise {
+      width: 100%;
+      height: 100%;
+      max-width: 320px;
+      min-width: 250px;
+      min-height: auto;
+      max-height: auto;
       margin: 0;
-      max-width: 351.5px;
-      
-      
+
   }
-    
+
     .rabbitfeet {
       margin-top: 5%;
     }
@@ -562,6 +583,8 @@ h1, h2, h3, h4, h5, h6 {
       align-items: center;
       justify-content: space-between;
     }
+
+  
   }
   
   
