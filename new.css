@@ -476,7 +476,7 @@ h1, h2, h3, h4, h5, h6 {
   /* Media query for screens larger than 900px */
 
   @media only screen and (min-width: 901px) {
-    
+
     .info-parag{
       display: flex;
       flex-direction: column;
@@ -533,78 +533,29 @@ h1, h2, h3, h4, h5, h6 {
       align-self: center;
     }
   
-    .flex5-image {
-      max-width: 320px;
-      min-width: 320px;
-      height: auto;
-    }
   
-    .sunrise, .twilight, .eternity {
+    .sunrise{
       margin: 0;
-    }
-  
-    .sunrise {
-      overflow: hidden;
-      clear: both;
       max-width: 320px;
-      min-width: 150px;
-      height: 100%;
-      max-height: auto;
+
     }
-  
-    .sunimig {
-      max-width: 320px;
-      min-width: 150px;
-      height: 100%;
-      max-height: auto;
-    }
-  
-    .twilight {
-      overflow: hidden;
-      clear: both;
-      max-width: 320px;
-      min-width: 250px;
-    }
-  
-    .twilimg {
-      max-width: 320px;
-      min-width: 150px;
-      height: 100%;
-      max-height: auto;
-    }
-  
+
+    .twilight,
     .eternity {
-      overflow: hidden;
-      clear: right;
-      max-width: 320px;
-      min-width: 250px;
-    }
-  
-    .eterimg {
-      max-width: 320px;
-      min-width: 150px;
-      height: 100%;
-      max-height: auto;
-    }
-  
-    .flex6 {
-      display: inline;
-      max-width: 99%;
-      height: 200px;
-      min-width: 50%;
-      margin: 1% 5% 1% 5%;
-      text-transform: capitalize;
-      font-size: 1.5em;
-    }
-  
+      margin: 0;
+      max-width: 351.5px;
+      
+      
+  }
+    
     .rabbitfeet {
-      margin-top: 50px;
+      margin-top: 5%;
     }
   
     .rabbitfeet ul {
       position: relative;
-      max-width: 80%;
-      height: 50px;
+      max-width: 95%;
+      height: 75px;
       display: flex;
       flex-direction: row;
       margin: auto;
