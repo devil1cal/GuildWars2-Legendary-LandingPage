@@ -2,7 +2,7 @@
 
 
 - 🌱 İt is a simple landing page created for freecode front end development libraries certification.
-- 💬 Online showcase link is <a href="https://qbg1dq.csb.app/" target="_blank"> here<a/>
+- 💬 Online showcase link is <a href="https://devil1cal.github.io/GuildWars2-Legendary-LandingPage/landing-page.html" target="_blank"> here<a/>
 
 
 
