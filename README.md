@@ -7,9 +7,9 @@
 
 
 # Overview
-- 🚧 Fro landing page I want to creted something I like and in that time period first gen legendery the Eternty was very nice and alluring greath sword. There are show case with iframe, 3 different and responsive sizing and cross-browser compatable
-- I created this little gadget on fully on Html, css and little bit a JavaScript for dropdwon menu. There are show case  video with iframe, 3 different and responsive sizing and all page cross-browser compatable.
-- main page finished 1 day and fixing took 2hours. 
+- 🚧 For landing page I want to create something I like and in that time period first gen legendery the Eternty was very nice and alluring greath sword. 
+- I created this little gadget on fully on Html, css and little bit a JavaScript for dropdwon menu. There are show case with iframe, and 3 different & responsive sizes with cross-browser compatable.
+- Main page finished in 1 day and fixing took 2 hours. 
 
 
 # Task List
